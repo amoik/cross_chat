@@ -1,0 +1,10 @@
+
+.contentBox
+{
+	margin-bottom:15%;
+	background-color:#AAAAAA;
+	border: 2px solid #BB3333;
+	padding:30px;
+	border-radius:15px;
+	box-shadow: 10px 10px 5px #990000;
+}

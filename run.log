@@ -1,0 +1,67 @@
+Running command: "/home/anti88/Schreibtisch/Sem 3/cross platform/cross_chat/platforms/android/cordova/run" 
+ANDROID_HOME=/home/anti88/Festplatte/ANDROID/sdk/
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc23.x86_64
+WARNING : No target specified, deploying to device '10.201.43.208:5555'.
+Running: /home/anti88/Dokumente/FH/Sem 3/cross platform/cross_chat/platforms/android/gradlew cdvBuildDebug -b /home/anti88/Dokumente/FH/Sem 3/cross platform/cross_chat/platforms/android/build.gradle -PcdvBuildArch=arm -Dorg.gradle.daemon=true
+:preBuild
+:compileDebugNdk UP-TO-DATE
+:preDebugBuild
+:checkDebugManifest
+:CordovaLib:compileLint
+:CordovaLib:copyDebugLint UP-TO-DATE
+:CordovaLib:mergeDebugProguardFiles UP-TO-DATE
+:CordovaLib:preBuild
+:CordovaLib:preDebugBuild
+:CordovaLib:checkDebugManifest
+:CordovaLib:prepareDebugDependencies
+:CordovaLib:compileDebugAidl UP-TO-DATE
+:CordovaLib:compileDebugRenderscript UP-TO-DATE
+:CordovaLib:generateDebugBuildConfig UP-TO-DATE
+:CordovaLib:generateDebugAssets UP-TO-DATE
+:CordovaLib:mergeDebugAssets UP-TO-DATE
+:CordovaLib:generateDebugResValues UP-TO-DATE
+:CordovaLib:generateDebugResources UP-TO-DATE
+:CordovaLib:packageDebugResources UP-TO-DATE
+:CordovaLib:processDebugManifest UP-TO-DATE
+:CordovaLib:processDebugResources UP-TO-DATE
+:CordovaLib:generateDebugSources UP-TO-DATE
+:CordovaLib:compileDebugJava UP-TO-DATE
+:CordovaLib:processDebugJavaRes UP-TO-DATE
+:CordovaLib:packageDebugJar UP-TO-DATE
+:CordovaLib:compileDebugNdk UP-TO-DATE
+:CordovaLib:packageDebugJniLibs UP-TO-DATE
+:CordovaLib:packageDebugLocalJar UP-TO-DATE
+:CordovaLib:packageDebugRenderscript UP-TO-DATE
+:CordovaLib:bundleDebug UP-TO-DATE
+:prepareAndroidCordovaLibUnspecifiedDebugLibrary UP-TO-DATE
+:prepareDebugDependencies
+:compileDebugAidl UP-TO-DATE
+:compileDebugRenderscript UP-TO-DATE
+:generateDebugBuildConfig UP-TO-DATE
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets UP-TO-DATE
+:generateDebugResValues UP-TO-DATE
+:generateDebugResources UP-TO-DATE
+:mergeDebugResources UP-TO-DATE
+:processDebugManifest UP-TO-DATE
+:processDebugResources UP-TO-DATE
+:generateDebugSources UP-TO-DATE
+:compileDebugJava UP-TO-DATE
+:preDexDebug UP-TO-DATE
+:dexDebug UP-TO-DATE
+:processDebugJavaRes UP-TO-DATE
+:validateDebugSigning
+:packageDebug UP-TO-DATE
+:zipalignDebug UP-TO-DATE
+:assembleDebug UP-TO-DATE
+:cdvBuildDebug UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 3.617 secs
+Built the following apk(s):
+    /home/anti88/Dokumente/FH/Sem 3/cross platform/cross_chat/platforms/android/build/outputs/apk/android-debug.apk
+Using apk: /home/anti88/Dokumente/FH/Sem 3/cross platform/cross_chat/platforms/android/build/outputs/apk/android-debug.apk
+Installing app on device...
+Launching application...
+LAUNCH SUCCESS
