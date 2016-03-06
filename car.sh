@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #ausführbar machen nicht vergessen! "chmod +x car.sh"
 
 #pfad zur android-sdk(MUSS ANGEPASST WERDEN!)
