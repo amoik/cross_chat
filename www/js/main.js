@@ -18,32 +18,6 @@ $(function()
 
 
 
-function addHandlers()
-{
-	$('#farbe').change(function()
-	{
-		saveLSData("farbe", $("#farbe").val());
-		rebuildChats();
-	});
-
-	$('#name').change(function()
-	{
-		saveLSData("name", $("#name").val());
-		rebuildChats();
-	});
-
-
-
-
-	$('#input').keypress(function(e)
-	{
-		if(e.which == 13)
-		{
-				send();
-		}
-	});
-}
-
 function send()
 {
 	var name = $("#name").val();
@@ -79,16 +53,31 @@ function checkDT(dt)
 	return dt;
 }
 
-function rebuildChats()
-{
-	$("#chatcontent").empty();
-	var dt = getLSData();
-	dt = checkDT(dt);
 
-	for(var i = 0; i < dt.chat.length; i++)
+function addHandlers()
+{
+	$('#farbe').change(function()
 	{
-		addChatLine(dt.name, dt.farbe, dt.chat[i])
-	}
+		saveLSData("farbe", $("#farbe").val());
+		rebuildChats();
+	});
+
+	$('#name').change(function()
+	{
+		saveLSData("name", $("#name").val());
+		rebuildChats();
+	});
+
+
+
+
+	$('#input').keypress(function(e)
+	{
+		if(e.which == 13)
+		{
+				send();
+		}
+	});
 }
 
 
@@ -106,6 +95,18 @@ function addChatLine(name, farbe, msg)
 function getLSData()
 {
 	return JSON.parse(localStorage.getItem(LS_KEY));
+}
+
+function rebuildChats()
+{
+	$("#chatcontent").empty();
+	var dt = getLSData();
+	dt = checkDT(dt);
+
+	for(var i = 0; i < dt.chat.length; i++)
+	{
+		addChatLine(dt.name, dt.farbe, dt.chat[i])
+	}
 }
 
 function addMsg(name, msg)
